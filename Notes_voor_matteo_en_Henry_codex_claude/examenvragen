@@ -1,0 +1,52 @@
+Hier is een exhaustieve lijst van de inzichtsvragen en "wat als"-scenario's die de professor en de assistenten stellen tijdens de mondelinge verdediging van Beweging (Stangen en Nokken), ingedeeld per thema:
+
+**"Wat als..."-scenario's (Parameterwijzigingen)**
+*   Wat gebeurt er met je mechanisme als je de **lengte van een bepaalde stang korter of langer** maakt? (Je moet dit ter plaatse in je notebook kunnen simuleren).
+*   Wat gebeurt er als je een specificatie, zoals de **rotatiesnelheid of de periodiciteit, verdubbelt of halveert**? Welk aspect van je ontwerp wordt hierdoor het meest beïnvloed?.
+*   Wat als je de **massa van de staven verdubbelt**? Schalen de krachten en resultaten dan lineair mee of niet?.
+*   Wat als je in jouw mechanisme de **aandrijving (motor) of de grond (aarding) op een andere plaats** zet? Hoe verandert het gedrag dan?.
+*   Wat gebeurt er met je krachten en kinetische energie als we de **zwaartekracht of wrijving wel in rekening brengen**?.
+*   Wat als je een **zachtere bewegingswet** kiest (bv. een 7e-graads polynoom in plaats van een cycloïde)? Welke invloed heeft dit op je plots en piekversnellingen?.
+*   Als ik in je mechanisme **twee stangen doorsnij**, wat is dan de nieuwe mobiliteit, waar zou je de motoren plaatsen, en wat verandert er in je berekeningen?.
+
+**Praktische Toepassing en Context**
+*   Wat is de specifieke **toepassing van jouw mechanisme of nok** (bv. stempelen, kroonkurken op flessen duwen)? Je moet je berekende krachten, vermogen en verplaatsingen kunnen verantwoorden in deze context.
+*   Hoe groot is je **motor in de realiteit**? Is het vermogen dat je berekend hebt vergelijkbaar met een fietsmotor of een wasmachine?.
+*   In wat voor soort applicaties (bv. een ponsmachine) zou een **mechanische onbalans net géén probleem** of zelfs een voordeel zijn?.
+*   Is het voor jouw toepassing eigenlijk wel nuttig of nodig om de **hele tijd contact te hebben** tussen de nok en de volger?.
+*   Vanaf welk punt is het economisch of mechanisch logischer om je **machine te ontdubbelen** in plaats van ze simpelweg twee keer sneller te laten draaien?.
+*   Waarom staat een aandrijving bij bepaalde mechanismes (zoals een automatische paraplu) op een heel specifieke plaats?.
+
+**Ontwerpkeuzes Nokken en Mechanismes**
+*   Waarom heb je exact **deze heffingswet/bewegingswet** gekozen? Welke afwegingen heb je gemaakt?.
+*   Waarom kies je bij het ontwerpen van bewegingsprofielen **niet altijd voor een oneindig zachte curve**?.
+*   Waarom is een trapezoïdaal snelheidsprofiel (met schokken) tóch een logische en veelgebruikte keuze voor CNC-machines?.
+*   Hoe heb je de **afweging gemaakt tussen de excentriciteit en de basisstraal** ($R_0$) van je nok? Wat is het grote voordeel van je nok gewoon groter te maken?.
+*   Hoe heb je de **voorspanning van je veer** gedimensioneerd en waarom heb je voor deze waarden gekozen?.
+*   Is een **veer eigenlijk wel noodzakelijk** voor je nok? Hoe zou je de heffing op een alternatieve manier kunnen realiseren zonder voorspankracht (bv. een vormgesloten nok of via de zwaartekracht)?.
+*   Is de **transmissiehoek** in jouw mechanisme goed of slecht voor het doel dat de machine moet uitvoeren?.
+*   Wat zijn **"dode standen" of singulariteiten**? Zitten deze in jouw mechanisme, hoe zie je dit in de plots, en is dit een voor- of nadeel?.
+
+**Dynamica, Inertie en Vliegwielen**
+*   Wat doet een **vliegwiel exact** en wat zijn de nadelen (of de kosten) van het gebruik ervan?.
+*   Wanneer zou je als ingenieur de trade-off maken om je **mechanisme zwaarder te maken** in plaats van een vliegwiel toe te voegen?.
+*   Nu je in je notebook een vliegwiel hebt ontworpen: **hoeveel kleiner is de fluctuatie-afwijking** geworden en had je dit getal op voorhand wiskundig kunnen voorspellen?.
+*   Zijn er situaties waarin je je mechanisme zo ontwerpt dat je net naar een **grotere fluctuatie** wilt gaan (bv. een katapult)?.
+*   Hoe zou je het **massatraagheidsmoment berekenen** als je mechanisme stangen met een zeldzame vorm (zoals een driehoek of massief object) bevat?.
+*   Waarom is de berekende kracht in je mechanisme soms verbazingwekkend laag (bv. een paar honderd gram voor grote stalen staven)?.
+
+**Kinematische Controle, Code en Numerieke Analyse**
+*   Hoe werkt de functie **`fsolve`** of de numerieke `\` operator in Matlab/Python precies op de achtergrond?.
+*   Waarom verwacht je een nauwkeurigheid in de grootteorde van **machineprecisie** voor je snelheden en versnellingen?.
+*   Welke **theorie of controle** (zoals virtuele arbeid, kinetische energie of behoud van momentum) heb je gebruikt in je code, en kan je de werking hiervan fysisch uitleggen?.
+*   Waarom is de **keuze van het assenstelsel** die je in je code gemaakt hebt logisch of rekenkundig handig?.
+*   **Naar welke grafiek** in je notebook moet ik kijken om te zien wat het effect van parameter X is op output Y?.
+*   (Trillingsgerelateerd in de Notebook): Verwacht je dat de berekende **matrix symmetrisch** is, en wat is de interpretatie van een specifieke **modevorm** in de grafiek?.
+
+**Sensoren, Metingen en Realiteit**
+*   Als we jouw mechanisme in het echt bouwen, waar zitten dan de **belangrijkste afwijkingen** tussen het gesimuleerde model in de notebook en de werkelijkheid (bv. toleranties, massacentra, speling)?.
+*   Heeft het verwaarlozen van wrijving in je model een invloed op de uiteindelijke **nauwkeurigheid van de bewegingen** in de echte machine?.
+*   Wat meet je precies op je machine, **welk meetinstrument** gebruik je (encoder, accelerometer, lasermeter), en met welke meetfout of resolutie moet je rekening houden?.
+*   Wat is een fundamenteel probleem dat een accelerometer (IMU) heeft, dat een encoder niet heeft (namelijk: drift)?.
+*   Waar zou je in jouw specifieke toepassing **sensoren plaatsen** om te controleren of de machine nog steeds doet waarvoor hij is ontworpen?.
+*   Grootteorde-inzicht: Als je een berekende piekkracht van een ton hebt, hoe ver zal je applicatie/motor daar dan fysiek door bewegen in één seconde?.
